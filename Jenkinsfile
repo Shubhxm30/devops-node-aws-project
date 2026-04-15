@@ -11,7 +11,7 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t nodeapp_demo:latest .'
+                sh 'docker build --no-cache -t nodeapp_demo:latest .'
             }
         }
 
