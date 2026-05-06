@@ -5,7 +5,8 @@ app.get('/', (req, res) => {
   res.send(`
     Hello from NodeApp Demo 🚀 running on AWS Ubuntu! <br>
     this is ci/cd works code 🥳
-  `);
+    this is new changes
+`);
 });
 
 const PORT = process.env.PORT || 3000;
