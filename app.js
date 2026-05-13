@@ -36,6 +36,10 @@ app.get('/', (req, res) => {
           <p>Hello from AWS Linux!</p>
           <p>CI/CD Pipeline is working successfully 🎉</p>
         </div>
+	<div class="card">
+          <h1>🚀  NodeApp Deployed 2nd time</h1>
+          <p>Hello from AWS Linux!</p>
+          <p>This is second card </p>
       </body>
     </html>
   `);
